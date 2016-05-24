@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace bond007_App.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()

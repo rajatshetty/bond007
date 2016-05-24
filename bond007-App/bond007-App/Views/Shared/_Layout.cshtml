@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -235,9 +236,21 @@
                         <a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                     </li>
                     <li class="divider"></li>
-                    <li>
-                        <a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                    </li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                        {
+                            @Html.AntiForgeryToken()
+
+
+                            <li>
+                            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                                </li>
+                               
+                           
+                        }
+                    }
+
                 </ul>
                 <!-- /.dropdown-user -->
             </li>
