@@ -1007,6 +1007,7 @@
     <Content Include="Content\bootstrap\less\variables.less" />
     <Content Include="Content\bootstrap\LICENSE" />
     <Content Include="Content\bootstrap\README.md" />
+    <None Include="Properties\PublishProfiles\bond007-2 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
