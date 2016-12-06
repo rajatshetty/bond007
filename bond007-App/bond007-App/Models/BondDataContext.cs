@@ -8,7 +8,7 @@ namespace bond007_App.Models
 {
     public class BondDataContext : DbContext
     {
-        public BondDataContext() : base("Data Source=l043qhb09x.database.windows.net;Initial Catalog=bondcodedb;user id=bond007;password=bond@123;MultipleActiveResultSets=True")
+        public BondDataContext() : base("Data Source=vcfnopvp95.database.windows.net,1433;Initial Catalog=bond007;user id=bond007;password=Rajat@123")
         {
 
         }

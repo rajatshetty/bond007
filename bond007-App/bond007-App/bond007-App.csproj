@@ -1007,7 +1007,12 @@
     <Content Include="Content\bootstrap\less\variables.less" />
     <Content Include="Content\bootstrap\LICENSE" />
     <Content Include="Content\bootstrap\README.md" />
+    <None Include="Properties\PublishProfiles\bond007 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\bond007-2 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\bond007-App20161205112845 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\bond007.pubxml" />
+    <None Include="Properties\PublishProfiles\local.pubxml" />
+    <None Include="Properties\PublishProfiles\localserver.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1057,11 +1062,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_navheader.cshtml" />
     <Content Include="Views\Shared\_navbar.cshtml" />
-    <Content Include="Views\Categories\Index.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Order\Index.cshtml" />
     <Content Include="Views\Product\Create.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

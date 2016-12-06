@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=vcfnopvp95.database.windows.net,1433;initial catalog=bond007;user id=bond007;password=Rajat@123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\rajat\.shetty\\Source\\Repos\\bond0072\\bond007-App\\bond007-App\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="BondDataContext-Web.config Connection String" description="BondDataContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=vcfnopvp95.database.windows.net,1433;Initial Catalog=bond007;user id=bond007;password=Rajat@123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\rajat\.shetty\\Source\\Repos\\bond0072\\bond007-App\\bond007-App\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BondDataContext']/@connectionString" />
+  </parameter>
+</parameters>
